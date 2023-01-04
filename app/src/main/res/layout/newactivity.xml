@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/ums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="UMS"
+        android:textColor="#FF0000"
+        android:textSize="150sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/tarif"
+        android:layout_width="100dp"
+        android:layout_height="813dp"
+        android:src="@drawable/tariflar"
+        android:translationX="-25dp"
+        android:translationY="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/daqiqa"
+        app:layout_constraintTop_toBottomOf="@id/ums" />
+
+    <TextView
+        android:id="@+id/tariftxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="TARIFLAR"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:translationX="-25dp"
+        android:translationY="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/daqiqa"
+        app:layout_constraintTop_toBottomOf="@id/tarif" />
+
+
+    <TextView
+        android:id="@+id/daqiqatxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="DAQIQA"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:translationX="25sp"
+        android:translationY="20dp"
+        app:layout_constraintLeft_toRightOf="@id/tariftxt"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/daqiqa" />
+
+
+    <ImageView
+        android:id="@+id/daqiqa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/daqiqalar"
+        android:translationX="25dp"
+        android:translationY="10dp"
+        app:layout_constraintLeft_toRightOf="@id/tarif"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ums" />
+
+    <ImageView
+        android:id="@+id/daqiqa1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/daqiqalar"
+        android:translationX="25dp"
+        android:translationY="10dp"
+        app:layout_constraintLeft_toRightOf="@id/tarif"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ums" />
+
+    <TextView
+        android:id="@+id/daqiqatxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="DAQIQA"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:translationX="25sp"
+        android:translationY="20dp"
+        app:layout_constraintLeft_toRightOf="@id/tariftxt"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/daqiqa" />
+
+
+
+
+</LinearLayout>
